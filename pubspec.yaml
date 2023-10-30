@@ -1,0 +1,39 @@
+name: floatyprince
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  screenshot: ^2.1.0
+  path_provider: ^2.1.1
+  image_picker_web: ^3.1.1
+  file_picker: ^6.0.0
+  firebase_core: ^2.15.1
+  
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Cropped.png"
+  web: 
+    generate: true
+    image_path: "assets/Cropped.png"
+
+flutter:
+
+  uses-material-design: true
